@@ -50,13 +50,12 @@ The pre-processing steps can be abtracted in the following categories.
 
 ***
 
-## 3) Model and Fine-tuning
-H2O and CatBoost were tried out.
--  is used to train the data.
+## 3) Model 
+
+- Random_forest model is used
 - Random-forest was tried with the following parameters,
   - split the training set with 7:3 for training and testing set to check the accuracy.
   - Model was trained with parameters: max_depth=25, n_estimators = 42*5, criterion = 'entropy', random_state = 0
-- Note: XGBoost and CatBoost were tried out but did not give good accuracies.
 
 ***
 
